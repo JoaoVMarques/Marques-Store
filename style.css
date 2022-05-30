@@ -34,11 +34,14 @@
 }
 
 .figure-img {
-  max-width:150px;
-  max-height:250px;
   width: auto;
   height: auto;
   margin: auto;
+}
+
+.normal {
+  max-width:150px;
+  max-height:250px;
 }
 
 .big {
@@ -70,7 +73,7 @@
 }
 
 .item-button:hover {
-  background-color: #0895c4;
+  background-color: #25a5cf;
 }
 
 figure {
