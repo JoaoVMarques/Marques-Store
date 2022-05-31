@@ -33,8 +33,14 @@ function ShowItemsInCard(item) {
 
 
 window.onload = () => {
-  const products = document.getElementsByClassName('items-products')[0];
+  const products = document.getElementsByClassName('items-products');
+  let count = 1;
+  let item = 0;
   items.forEach(element => {
-    products.appendChild(ShowItemsInCard(element));
+    products[item].appendChild(ShowItemsInCard(element));
+    if (count === 4) {
+      item += 1;
+    }
+    count += 1;
   });
 }
