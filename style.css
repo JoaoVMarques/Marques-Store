@@ -83,15 +83,24 @@
   color: purple;
 }
 
-ul {
-  margin-top: 5px;
-  margin-right: 200px;
-}
-
-ul li {
+.navBarButton {
   padding: 10px;
   border-bottom: 1px solid rgb(150, 146, 146);
   display: inline;
+}
+
+.navBarButton a {
+  text-decoration: none;
+  color: black;
+}
+
+.selectedMenu a {
+  color: purple;
+}
+
+ul {
+  margin-top: 5px;
+  margin-right: 200px;
 }
 
 ul li:hover {

@@ -31,8 +31,7 @@ function ShowItemsInCard(item) {
   return itemCard;
 }
 
-
-window.onload = () => {
+function loadItem() {
   const products = document.getElementsByClassName('items-products');
   let count = 1;
   let item = 0;
@@ -43,4 +42,8 @@ window.onload = () => {
     }
     count += 1;
   });
+}
+
+window.onload = () => {
+  loadItem();
 }
