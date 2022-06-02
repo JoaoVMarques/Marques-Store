@@ -98,6 +98,23 @@
   color: purple;
 }
 
+.about-section {
+  display: flex;
+  padding-top: 25px;
+}
+
+.about-text {
+  margin-top: 35px;
+  font-size: 35px;
+  margin-left: 5%;
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.logo-about {
+  margin-left: 35px;
+}
+
 ul {
   margin-top: 5px;
   margin-right: 200px;
@@ -106,6 +123,10 @@ ul {
 ul li:hover {
   border-bottom: 1px solid rgb(58, 58, 58);
   cursor: pointer;
+}
+
+ul li:active {
+  border-bottom: 1px solid black;
 }
 
 nav {
@@ -138,7 +159,7 @@ hr {
   margin-bottom: 5px;
 }
 
-img {
+#banner {
   height: 500px;
   width: 100%;
 }
