@@ -1,0 +1,16 @@
+.logo-about {
+  margin-left: 35px;
+}
+
+.about-text {
+  margin-top: 35px;
+  font-size: 35px;
+  margin-left: 5%;
+  width: 50%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.about-section {
+  display: flex;
+  padding-top: 25px;
+}
