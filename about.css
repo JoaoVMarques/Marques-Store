@@ -3,14 +3,29 @@
 }
 
 .about-text {
-  margin-top: 35px;
-  font-size: 35px;
+  margin-top: 25px;
+  font-size: 28px;
   margin-left: 5%;
   width: 50%;
   font-family: 'Roboto', sans-serif;
 }
 
+h2 {
+  color: #0D6EFD;
+  margin-top: 25px;
+  text-align: center;
+  font-size: 36px;
+}
+
+hr {
+  border-top: 1px solid black;
+  width: 20%;
+  margin: auto;
+  margin-top: 10px;
+}
+
 .about-section {
   display: flex;
   padding-top: 25px;
+  justify-content: center;
 }
