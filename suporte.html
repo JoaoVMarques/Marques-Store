@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,6 +12,7 @@
   <link rel="stylesheet" href="suport.css">
   <title>sup</title>
 </head>
+
 <body>
   <header>
     <h1> <span class="purple">Marques</span> Store</h1>
@@ -22,23 +24,33 @@
       </ul>
     </nav>
   </header>
+  <h1>Fale conosco</h1>
   <section class="suport-section">
-    <img src="img/logo.png" class="logo-about" alt="Logo Marques Store">
     <form action="">
-        <label for="fullName">Nome Completo</label>
-        <input type="text" name="name-input" id="fullName" placeholder="Nome de usuário">
-        <label for="email">Email</label>
-        <input type="email" name="name-input" id="email" placeholder="Nome de usuário">
-        <label for="topic">tópico</label>
-        <select name="topic-options" id="topic">
-          <option value="products">Problemas com os produtos</option>
-          <option value="site">Problemas com as compras</option>
-          <option value="technical">Problemas técnicos</option>
-          <option value="question">Estou com duvidas</option>
-          <option value="refund">Reembolso</option>  
-          <option value="other">Outro</option>
-        </select>
+      <div class="container-2">
+        <div class="input-container">
+          <label for="fullName">Nome Completo</label>
+          <input type="text" name="name-input" id="fullName" placeholder="Nome de usuário">
+        </div>
+        <div class="input-container">
+          <label for="email">Email</label>
+          <input type="email" name="name-input" id="email" placeholder="Nome de usuário">
+        </div>
+      </div>
+      <label for="topic">tópico</label>
+      <select name="topic-options" id="topic">
+        <option value="products">Problemas com os produtos</option>
+        <option value="site">Problemas com as compras</option>
+        <option value="technical">Problemas técnicos</option>
+        <option value="question">Estou com duvidas</option>
+        <option value="refund">Reembolso</option>
+        <option value="other">Outro</option>
+      </select>
+      <label for="messages">Mensagem</label>
+      <textarea name="messages" id="messages" cols="30" rows="10" placeholder="Escreva sua mensagem Aqui."></textarea>
+      <button type="submit">Enviar</button>
     </form>
   </section>
 </body>
+
 </html>
