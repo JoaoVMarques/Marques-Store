@@ -6,15 +6,27 @@
 
 input {
   width: 100%;
-  padding: 8px 15px;
+  padding: 10px 0;
   border: 1px solid #ccc;
   border-radius: 5px;
   margin: 6px 0;
   box-shadow: 0rem 0rem 0.9rem rgba(189, 189, 189, 0.397);
+  margin-bottom: 15px;
+}
+
+input::placeholder {
+  padding-left: 10px;
 }
 
 label {
-  display: block;
+  padding-left: 4px;
+}
+
+select {
+  width: 100%;
+  padding: 7px;
+  border: 1px solid #ccc;
+  border-radius: 2px;
 }
 
 input:hover {

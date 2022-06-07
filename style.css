@@ -11,12 +11,6 @@
   color: purple;
 }
 
-.navBarButton {
-  padding: 10px;
-  border-bottom: 1px solid rgb(150, 146, 146);
-  display: inline;
-}
-
 a {
   text-decoration: none;
   color: black;
@@ -32,12 +26,25 @@ ul {
 }
 
 ul li:hover {
-  border-bottom: 1px solid rgb(58, 58, 58);
   cursor: pointer;
 }
 
-ul li:active {
+a {
+  padding: 10px;
+  border-bottom: 1px solid rgb(150, 146, 146);
+}
+
+a:hover {
+  border-bottom: 1px solid rgb(58, 58, 58);
+}
+
+a:active {
   border-bottom: 1px solid black;
+}
+
+li {
+  display: inline;
+  padding: 0;
 }
 
 nav {

@@ -16,19 +16,28 @@
     <h1> <span class="purple">Marques</span> Store</h1>
     <nav>
       <ul>
-        <a href="/index.html"><li class="navBarButton">Home</li></a>
-        <a href="/about.html"><li class="navBarButton">Sobre</li></a>
-        <a href="/suporte.html">  <li class="navBarButton selectedMenu">Suporte</li></a>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/about.html">Sobre</a></li>
+        <li><a class="selectedMenu" href="/suporte.html">Suporte</a></li>
       </ul>
     </nav>
   </header>
   <section class="suport-section">
     <img src="img/logo.png" class="logo-about" alt="Logo Marques Store">
     <form action="">
-      <div>
         <label for="fullName">Nome Completo</label>
         <input type="text" name="name-input" id="fullName" placeholder="Nome de usuário">
-      </div>
+        <label for="email">Email</label>
+        <input type="email" name="name-input" id="email" placeholder="Nome de usuário">
+        <label for="topic">tópico</label>
+        <select name="topic-options" id="topic">
+          <option value="products">Problemas com os produtos</option>
+          <option value="site">Problemas com as compras</option>
+          <option value="technical">Problemas técnicos</option>
+          <option value="question">Estou com duvidas</option>
+          <option value="refund">Reembolso</option>  
+          <option value="other">Outro</option>
+        </select>
     </form>
   </section>
 </body>
