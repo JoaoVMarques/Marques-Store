@@ -10,8 +10,8 @@ Para aprimorar minhas técnicas em html, css e javascript, além de deixar esse 
 
 ## 🏆 Objetivos
 - [x] ~Menu Sobre~
+- [x] ~Pagina de produtos~
 - [ ] Login de usuário
-- [ ] Pagina de produtos
 - [ ] "Sobre" de qualquer produto
 - [ ] Barra de pesquisa
 - [ ] Filtrar items por tags
