@@ -16,7 +16,6 @@ Para aprimorar minhas técnicas em html, css e javascript, além de deixar esse 
 - [ ] Barra de pesquisa
 - [ ] Filtrar items por tags
 - [ ] Criar um carrinho de compras
-- [ ] Colocar uma API para gerar produtos de forma automática
 
 ## Ferramentas Utilizadas
 [Google Fonts](https://fonts.google.com/) - Fontes utilizadas <br>
